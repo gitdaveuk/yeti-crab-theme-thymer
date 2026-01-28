@@ -1,0 +1,223 @@
+/*
+* Yeti Crab Theme for Thymer
+* Luxuriously fuzzy and deep-sea elegant
+* Inspired by the hairy-clawed Kiwa hirsuta
+* Creamy whites, golden fur tones, and abyssal blacks
+* Variants: Dark (Hydrothermal Vent) and Light (Shallow Discovery)
+*/
+
+/* ------------------------------------------- */
+/* Hydrothermal Vent - Dark & Luxurious        */
+/* ------------------------------------------- */
+html[data-theme="basic-yeti-crab"] {
+    color-scheme: dark;
+
+    /* ------------------------------------------- */
+    /* 1. Headings - Creamy Fur White             */
+    /* ------------------------------------------- */
+    .heading-h1,
+    .heading-h2,
+    .heading-h3,
+    .heading-h4,
+    .heading-h5,
+    .heading-h6 {
+        color: #f5f0e8;
+    }
+
+    --text-base-size: 16px;
+  
+    /* ------------------------------------------- */
+    /* 2. Background Colors - Deep Vent Blacks    */
+    /* ------------------------------------------- */
+    --color-bg-50: #8a8372;
+    --color-bg-100: #6a6355;
+    --color-bg-150: #5a5345;
+    --color-bg-200: #4a4335;
+    --color-bg-300: #3a3428;
+    --color-bg-400: #2d281e;
+    --color-bg-500: #221e16;
+    --color-bg-600: #221e16;
+    --color-bg-700: #1a1610;
+    --color-bg-800: #221e16; /* Sidebar - smoky vent */
+    --color-bg-900: #0f0d09;  /* Main window - abyssal black */
+    --color-bg-950: #0a0806;
+    --color-bg-500-50: rgba(34, 30, 22, 0.5);
+    --color-bg-950-50: rgba(10, 8, 6, 0.65);
+
+    /* ------------------------------------------- */
+    /* 3. Primary Colors - Golden Fur             */
+    /* ------------------------------------------- */
+    --color-primary-50: #fffef5;
+    --color-primary-100: #fefce8;
+    --color-primary-200: #fef9c3;
+    --color-primary-300: #fef08a;
+    --color-primary-400: #e4c57a; /* Luxurious Golden Fur */
+    --color-primary-500: #d4b56a;
+    --color-primary-600: #c4a55a;
+    --color-primary-700: #a8884a;
+    --color-primary-800: #8c6c3a;
+    --color-primary-900: #70542e;
+    --color-primary-950: #4a3820;
+    --color-primary-400-70: rgba(228, 197, 122, 0.7);
+    --color-primary-950-20: rgba(74, 56, 32, 0.2);
+    --color-primary-text-100: #221e16;
+
+    /* ------------------------------------------- */
+    /* 4. Text & Icons - Cream & Beige            */
+    /* ------------------------------------------- */
+    --color-text-50: #f5f0e8;
+    --color-text-100: #f5f0e8;
+    --color-text-200: #e8dfd0;
+    --color-text-300: #d8cbb8;
+    --color-text-400: #c4b39a;
+    --color-text-500: #8a8372;
+    --color-text-600: #6a6355;
+    --color-text-700: #e4c57a;
+    --color-text-800: #d8cbb8;
+    --color-text-900: #3a3428;
+    --color-text-950: #8a8372;
+
+    /* ------------------------------------------- */
+    /* 5. Semantic Colors - Vent Ecosystem        */
+    /* ------------------------------------------- */
+    --text-ok: #4ade80;
+    --text-status-online: #4ade80;
+    --text-warning: #fb923c;
+    --text-error: #f87171;
+    --bg-alert: #f87171;
+    --fg-alert: #f5f0e8;
+
+    /* ------------------------------------------- */
+    /* 6. Links, Tags & Mentions - Warm Minerals  */
+    /* ------------------------------------------- */
+    --link-color: #fbbf24;
+    --link-hover-color: #fcd34d;
+    --ed-link-color: #fbbf24;
+    --ed-link-hover-color: #fcd34d;
+
+    --ed-hashtag-color: #e4c57a;
+    --ed-hashtag-bg: rgba(228, 197, 122, 0.15);
+
+    --ed-mention-color: #fed7aa;
+    --ed-mention-bg: rgba(254, 215, 170, 0.15);
+    --ed-mention-hover-bg: rgba(254, 215, 170, 0.25);
+    --ed-mention-hover-color: #ffedd5;
+
+    --ed-datetime-color: #fbbf24;
+    --ed-datetime-bg: rgba(251, 191, 36, 0.15);
+
+    /* ------------------------------------------- */
+    /* 7. Tasks & Checkboxes - Golden Claws       */
+    /* ------------------------------------------- */
+    --ed-check-div-border: #e4c57a;
+    --ed-check-div-hover-border: #f4d58a;
+    --ed-check-done-bg: #e4c57a;
+    --ed-check-done-fg: #221e16;
+
+    /* Done task styling */
+    .listitem.listitem-task.state-done .lineitem-text {
+        color: #8a8372 !important;
+        text-decoration-color: #8a8372 !important;
+        opacity: 1 !important;
+    }
+
+    /* ------------------------------------------- */
+    /* 8. Selection & Caret                        */
+    /* ------------------------------------------- */
+    --selection-bg: rgba(228, 197, 122, 0.3);
+    --selection-fg: #f5f0e8;
+    --ed-selection-self-bg: rgba(228, 197, 122, 0.3);
+    --ed-selection-blurred-bg: rgba(228, 197, 122, 0.15);
+
+    --ed-caret-self-radius: 2px;
+    --ed-caret-self-border-width: 0px;
+    --ed-caret-self-background: color-mix(in srgb, #e4c57a 70%, transparent);
+    --ed-caret-self-box-shadow: 0 0 2px #e4c57a;
+
+    /* ------------------------------------------- */
+    /* 9. Quotes & Code - Mineral Deposits        */
+    /* ------------------------------------------- */
+    --ed-quote-border-color: #e4c57a;
+
+    --ed-code-border: transparent;
+    --ed-code-bg: rgba(58, 52, 40, 0.6);
+
+    /* Inline code */
+    .lineitem-code {
+        background-color: var(--color-bg-200) !important;
+        color: #fed7aa !important;
+        border-radius: 4px;
+        padding: 2px 5px;
+        font-family: var(--font-monospace);
+    }
+
+    /* Note blocks */
+    --ed-block-note-bg: rgba(228, 197, 122, 0.1);
+    --ed-block-note-border: #e4c57a;
+
+    /* ------------------------------------------- */
+    /* 10. UI Components - Vent Interface         */
+    /* ------------------------------------------- */
+    --cards-bg: #221e16;
+    --cards-hover-bg: #2d281e;
+    --cards-border-color: transparent;
+    --cards-border-color-focused: transparent;
+
+    --side-bg-active-focus: #a8884a;
+    --side-fg-active-focus: #f5f0e8;
+    --sidebar-bg-hover: #2d281e;
+    --sidebar-border-color: transparent;
+
+    --cmdpal-bg-color: #221e16;
+    --cmdpal-selected-bg-color: #e4c57a;
+    --cmdpal-selected-fg-color: #221e16;
+    --cmdpal-hover-bg-color: #2d281e;
+    --cmdpal-border-color: transparent;
+
+    --input-bg-color: #221e16;
+    --input-border-color: transparent;
+    --input-border-focus: 1px solid #e4c57a;
+    --input-border-shadow: 0 0 8px rgba(228, 197, 122, 0.4);
+
+    --button-primary-bg-color: #e4c57a;
+    --button-primary-fg-color: #221e16;
+    --button-primary-bg-hover-color: #d4b56a;
+    --button-bg-color: #2d281e;
+    --button-border-color: transparent;
+    --button-bg-hover-color: #4a4335;
+
+    --color-shadow: rgba(0, 0, 0, 0.6);
+    --color-shadow-cards: 0 4px 6px rgba(0, 0, 0, 0.5);
+    --color-shadow-hover: 0 6px 12px rgba(0, 0, 0, 0.6);
+
+    --logo-color: #e4c57a;
+    --logo-glow-shadow:
+        0 0 15px rgba(228, 197, 122, 0.3),
+        0 0 30px rgba(228, 197, 122, 0.15);
+
+    /* Enums - Hydrothermal Palette */
+    --enum-red-bg: rgba(248, 113, 113, 0.25);
+    --enum-red-fg: #f87171;
+    --enum-orange-bg: rgba(251, 146, 60, 0.25);
+    --enum-orange-fg: #fb923c;
+    --enum-yellow-bg: rgba(251, 191, 36, 0.25);
+    --enum-yellow-fg: #fbbf24;
+    --enum-green-bg: rgba(74, 222, 128, 0.25);
+    --enum-green-fg: #4ade80;
+    --enum-cyan-bg: rgba(34, 211, 238, 0.25);
+    --enum-cyan-fg: #22d3ee;
+    --enum-blue-bg: rgba(96, 165, 250, 0.25);
+    --enum-blue-fg: #60a5fa;
+    --enum-purple-bg: rgba(192, 132, 252, 0.25);
+    --enum-purple-fg: #c084fc;
+    --enum-pink-bg: rgba(244, 114, 182, 0.25);
+    --enum-pink-fg: #f472b6;
+
+    --prop-border-focused: #221e16;
+    --prop-bg-focused: rgba(228, 197, 122, 0.3);
+    --shadow-sticky-row: 0 6px 12px rgba(0, 0, 0, 0);
+    --ed-drag-handle-color: #e4c57a;
+    --ed-drag-handle-hover-border: #f4d58a;
+
+    /*--gradient-scrim: none;*/
+}
