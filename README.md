@@ -1,1 +1,1 @@
-<img src="https://ocean.si.edu/sites/default/files/styles/full_width_large/public/2023-11/image001-full_1.jpg.webp?itok=QPcWrA9k" alt="Yeti Crab | Smithsonian Ocean"/><img width="750" height="430" alt="image" src="https://github.com/user-attachments/assets/104f6c5e-7485-4092-90a6-9b207f157da9" />
+<img src="https://ocean.si.edu/sites/default/files/styles/full_width_large/public/2023-11/image001-full_1.jpg.webp?itok=QPcWrA9k" alt="Yeti Crab | Smithsonian Ocean"/>
